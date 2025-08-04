@@ -1,0 +1,10 @@
+TransactionID,CustomerID,ProductName
+1001,C001,Sữa
+1001,C001,Bánh Mì
+1002,C002,Bơ
+1003,C003,Sữa
+1003,C003,Bơ
+1004,C004,Nước Ngọt
+1004,C004,Bim Bim
+1005,C005,Bánh Mì
+1005,C005,Nước Ngọt

@@ -1,0 +1,10 @@
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\bin\Debug\AppQLBanLe.exe.config
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\bin\Debug\AppQLBanLe.exe
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\bin\Debug\AppQLBanLe.pdb
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.csproj.AssemblyReference.cache
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.Properties.Resources.resources
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.csproj.GenerateResource.cache
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.csproj.CoreCompileInputs.cache
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.exe
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.pdb
+E:\Project\it61\QLBanLe\AppQLBanLe\AppQLBanLe\obj\Debug\AppQLBanLe.Form1.resources
