@@ -1,6 +1,6 @@
 ﻿namespace AppQLBanLe
 {
-    partial class Form1
+    partial class dgvRules
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -30,6 +30,7 @@
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dgvRules));
             this.txtInput = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lstCart = new System.Windows.Forms.ListBox();
@@ -38,81 +39,69 @@
             this.btnLoadData = new System.Windows.Forms.Button();
             this.btnTrain = new System.Windows.Forms.Button();
             this.btnClearCart = new System.Windows.Forms.Button();
+            this.dataGridViewTrain = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTrain)).BeginInit();
             this.SuspendLayout();
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(100, 20);
+            resources.ApplyResources(this.txtInput, "txtInput");
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(200, 20);
-            this.txtInput.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(310, 18);
+            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 26);
-            this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lstCart
             // 
             this.lstCart.FormattingEnabled = true;
-            this.lstCart.Location = new System.Drawing.Point(100, 60);
+            resources.ApplyResources(this.lstCart, "lstCart");
             this.lstCart.Name = "lstCart";
-            this.lstCart.Size = new System.Drawing.Size(200, 95);
-            this.lstCart.TabIndex = 2;
             // 
             // btnRecommend
             // 
-            this.btnRecommend.Location = new System.Drawing.Point(100, 170);
+            resources.ApplyResources(this.btnRecommend, "btnRecommend");
             this.btnRecommend.Name = "btnRecommend";
-            this.btnRecommend.Size = new System.Drawing.Size(150, 30);
-            this.btnRecommend.TabIndex = 3;
-            this.btnRecommend.Text = "Khuyến nghị";
             this.btnRecommend.UseVisualStyleBackColor = true;
             this.btnRecommend.Click += new System.EventHandler(this.btnRecommend_Click);
             // 
             // lstOutput
             // 
             this.lstOutput.FormattingEnabled = true;
-            this.lstOutput.Location = new System.Drawing.Point(100, 220);
+            resources.ApplyResources(this.lstOutput, "lstOutput");
             this.lstOutput.Name = "lstOutput";
-            this.lstOutput.Size = new System.Drawing.Size(200, 95);
-            this.lstOutput.TabIndex = 4;
             // 
             // btnLoadData
             // 
-            this.btnLoadData.Location = new System.Drawing.Point(391, 18);
+            resources.ApplyResources(this.btnLoadData, "btnLoadData");
             this.btnLoadData.Name = "btnLoadData";
-            this.btnLoadData.Size = new System.Drawing.Size(95, 26);
-            this.btnLoadData.TabIndex = 5;
-            this.btnLoadData.Text = "Tải dữ liệu";
             this.btnLoadData.Click += new System.EventHandler(this.btnLoadData_Click);
             // 
             // btnTrain
             // 
-            this.btnTrain.Location = new System.Drawing.Point(492, 18);
+            resources.ApplyResources(this.btnTrain, "btnTrain");
             this.btnTrain.Name = "btnTrain";
-            this.btnTrain.Size = new System.Drawing.Size(96, 26);
-            this.btnTrain.TabIndex = 6;
-            this.btnTrain.Text = "Huấn luyện";
             this.btnTrain.Click += new System.EventHandler(this.btnTrain_Click);
             // 
             // btnClearCart
             // 
-            this.btnClearCart.Location = new System.Drawing.Point(310, 85);
+            resources.ApplyResources(this.btnClearCart, "btnClearCart");
             this.btnClearCart.Name = "btnClearCart";
-            this.btnClearCart.Size = new System.Drawing.Size(100, 30);
-            this.btnClearCart.TabIndex = 7;
-            this.btnClearCart.Text = "Xóa giỏ hàng";
             this.btnClearCart.Click += new System.EventHandler(this.btnClearCart_Click);
             // 
-            // Form1
+            // dataGridViewTrain
             // 
-            this.ClientSize = new System.Drawing.Size(742, 358);
+            this.dataGridViewTrain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridViewTrain, "dataGridViewTrain");
+            this.dataGridViewTrain.Name = "dataGridViewTrain";
+            // 
+            // dgvRules
+            // 
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.dataGridViewTrain);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lstCart);
@@ -121,14 +110,16 @@
             this.Controls.Add(this.btnLoadData);
             this.Controls.Add(this.btnTrain);
             this.Controls.Add(this.btnClearCart);
-            this.Name = "Form1";
-            this.Text = "Hệ thống khuyến nghị sản phẩm";
+            this.Name = "dgvRules";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTrain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dataGridViewTrain;
     }
 }
 
